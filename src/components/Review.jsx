@@ -77,7 +77,7 @@ this.props.push_data(this.state.login, this.state.text,this.state.rating)
     render() {
         return (
             <div className="review_wrapper">
-                <h3 className="review_header"><i className=" ui bookmark outline icon"></i>Оставить отзыв</h3>
+                <h3 className="review_header"><i  className=" ui bookmark outline icon"></i>Оставить отзыв</h3>
                 <form action="" onSubmit={this.onFormSubmit}>
                     <input onChange={this.onLoginChange} value={this.state.login} type="text" placeholder="Ваше Имя" className="review_login"/>
                     <Rating style={{backgroundColor: "#101010"}} icon='star' defaultRating={5} size='huge' maxRating={5}  onRate={ this.CheckRating }/>
