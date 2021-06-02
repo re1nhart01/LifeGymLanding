@@ -1,0 +1,114 @@
+.contacts_wrapper {
+    height: 780px;
+    width: 100%;
+    background-color: #101010;
+}
+
+.contacts_header {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 78px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.contacts_map {
+    margin-left: 10%;
+
+}
+
+.contacts_info {
+    position: relative;
+    left: 30%;
+    color: white;
+}
+
+.contacts_info_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    position: absolute;
+    left: 21%;
+    top: -550px;
+}
+
+.contacts_info_address {
+position: relative;
+    left: 21%;
+    top: -450px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.contacts_info_number {
+    position: relative;
+    left: -12.4%;
+    top: -400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.contacts_info_email {
+    position: relative;
+    left: -29%;
+    top: -350px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.contacts_info_time {
+    position: relative;
+    left: -46.6%;
+    top: -300px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.contacts_info_icons {
+    position: relative;
+    top: -250px;
+    left: 0%;
+}
+
+.instagram {
+    position: absolute;
+    left: 24%;
+    top: -250px;
+}
+
+.facebook {
+    position: absolute;
+    left: 33%;
+    top: -250px;
+}
+.vk {
+    position: absolute;
+    left: 30%;
+    top: -250px;
+}
+.telegram {
+      position: absolute;
+      left: 27%;
+      top: -250px;
+  }

@@ -1,0 +1,142 @@
+.review_wrapper {
+    height: 40%;
+    width: 100%;
+    background-color: black;
+margin-top: -14px;
+
+}
+
+.review_header {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 78px;
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 110px;
+}
+
+.review_login {
+    display: block;
+    width: 300px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+margin-bottom: 15px;
+}
+
+.review_text {
+    display: block;
+    width: 500px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    padding-left: 120px;
+}
+
+.review_button {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #c90404;
+    padding: 15px 29px 15px 29px;
+    border: 2px solid white;
+    color: white;
+}
+
+.review_button:hover {
+    background-color: #101010;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.review_load_allData {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+   padding: 15px 29px 15px 29px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 42%;
+    margin-bottom: 30px;
+}
+
+.review_load_allData:hover {
+    background-color: #c90404;
+    color: white;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.comments_wrapper{
+    border: 1px solid white;
+    margin-bottom: 15px;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 6.3%;
+}
+
+.review_author {
+    color: white;
+}
+.ui.comments .comment .author {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 29px
+}
+
+.ui.comments .comment .text {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+.ui.comments .comment .metadata {
+    color: white;
+}
+
+.metadata .date {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 29px;
+}
+.metadata .rating {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 29px;
+}
+
+

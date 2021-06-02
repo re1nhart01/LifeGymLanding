@@ -1,0 +1,58 @@
+.footer_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height:100px;
+    background-color: #101010;
+
+}
+
+.footer_logo {
+    width: 120px;
+    height: 20px;
+    align-items: center;
+}
+
+
+.footer_logo {
+    margin-left: 12%;
+    margin-right: 40px;
+}
+
+.footer_wrapper button {
+    margin-right: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #101010;
+    border: none;
+    color: white;
+}
+
+.footer_wrapper p {
+    padding-bottom: 32px;
+}
+
+.footer_wrapper i {
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: relative;
+    top: 38px;
+    left: 40px;
+    margin-left: 3px;
+}
+
+
+.telegram_plane {
+    position: relative;
+   top: -5px;
+}
+
+.footer_wrapper button:hover {
+    color: #c90404;
+    transition: 0.8s;
+}

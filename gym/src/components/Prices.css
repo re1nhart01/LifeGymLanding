@@ -1,0 +1,103 @@
+.price_wrapper {
+    width: 100%;
+    height: 720px;
+    background-color: black;
+    margin-top: -65px;
+}
+
+.price_header {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+    margin-top: 15px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.price_item {
+   width: 920px;
+    height: 468px;
+    border-radius: 60px;
+background:linear-gradient(0deg, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), linear-gradient(105.48deg, #84FFE1 25.3%, #FE8399 76.02%)
+}
+
+.price_item_header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+padding-top: 90px;
+   color: white;
+    text-align: center;
+}
+
+.price_item_type {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 19px;
+    color: white;
+    text-align: center;
+}
+
+.tag {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: help;
+}
+
+.price_grid {
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(50%,1fr));
+    padding-left: 10%;
+}
+
+.price_item_price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFE600;
+}
+
+.price_item_submit_button {
+    text-decoration: none;
+    border: 2px solid #c90404;
+    padding: 10px 15px 10px 15px;
+    background: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+}
+
+.cc{
+    text-align: center;
+    margin-top: -15px;
+}
+
+
+.price_item_submit_button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
